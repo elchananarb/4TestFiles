@@ -8,5 +8,3 @@ phases:
   build:
     commands:
       - echo "CX_CLIENT_ID: $CX_CLIENT_ID"
-      - echo "CX_CLIENT_SECRET: $CX_CLIENT_SECRET"
-      - ./cx scan create --project-name "Elchanan_AWS_CodeBuild" --file-source "." --branch "main" --report-format 'summaryHTML' --agent 'CodeCommit' --base-uri "https://deu.iam.checkmarx.net" --tenant "galactica" --client-id "$CX_CLIENT_ID" --client-secret "$CX_CLIENT_SECRET" --debug
