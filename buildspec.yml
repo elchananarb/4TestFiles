@@ -7,4 +7,4 @@ phases:
       - tar xzvf ./cxcli.tar.gz
   build:
     commands:
-      - echo "CX_CLIENT_ID: $CX_CLIENT_ID"
+      - echo "CX_CLIENT_ID: 
